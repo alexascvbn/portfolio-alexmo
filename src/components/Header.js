@@ -11,7 +11,7 @@ const Header = () => {
           className="typed-text"
           strings={[
             "Web Development",
-            "Mobile App",
+            "Mobile Application",
             "Google Ads",
             "SEO engine",
           ]}
