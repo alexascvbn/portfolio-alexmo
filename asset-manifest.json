@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio-alexmo/static/css/main.66339e97.chunk.css",
+    "main.js": "/portfolio-alexmo/static/js/main.96563aa3.chunk.js",
+    "main.js.map": "/portfolio-alexmo/static/js/main.96563aa3.chunk.js.map",
+    "runtime-main.js": "/portfolio-alexmo/static/js/runtime-main.cfa2f113.js",
+    "runtime-main.js.map": "/portfolio-alexmo/static/js/runtime-main.cfa2f113.js.map",
+    "static/css/2.e2e54199.chunk.css": "/portfolio-alexmo/static/css/2.e2e54199.chunk.css",
+    "static/js/2.90b73a57.chunk.js": "/portfolio-alexmo/static/js/2.90b73a57.chunk.js",
+    "static/js/2.90b73a57.chunk.js.map": "/portfolio-alexmo/static/js/2.90b73a57.chunk.js.map",
+    "static/js/3.87d71b46.chunk.js": "/portfolio-alexmo/static/js/3.87d71b46.chunk.js",
+    "static/js/3.87d71b46.chunk.js.map": "/portfolio-alexmo/static/js/3.87d71b46.chunk.js.map",
+    "index.html": "/portfolio-alexmo/index.html",
+    "static/css/2.e2e54199.chunk.css.map": "/portfolio-alexmo/static/css/2.e2e54199.chunk.css.map",
+    "static/css/main.66339e97.chunk.css.map": "/portfolio-alexmo/static/css/main.66339e97.chunk.css.map",
+    "static/js/2.90b73a57.chunk.js.LICENSE.txt": "/portfolio-alexmo/static/js/2.90b73a57.chunk.js.LICENSE.txt",
+    "static/media/LinkIn_Photo.40f1441d.jpg": "/portfolio-alexmo/static/media/LinkIn_Photo.40f1441d.jpg",
+    "static/media/App.css": "/portfolio-alexmo/static/media/testimonials-bg.75612be7.jpg",
+    "static/media/avatar-1.9277ecea.png": "/portfolio-alexmo/static/media/avatar-1.9277ecea.png",
+    "static/media/avatar-2.75d8f23e.png": "/portfolio-alexmo/static/media/avatar-2.75d8f23e.png",
+    "static/media/avatar-3.d6c9b46f.png": "/portfolio-alexmo/static/media/avatar-3.d6c9b46f.png",
+    "static/media/avatar-4.f7fb7ed7.png": "/portfolio-alexmo/static/media/avatar-4.f7fb7ed7.png",
+    "static/media/city-guide-app.e4843bd0.png": "/portfolio-alexmo/static/media/city-guide-app.e4843bd0.png",
+    "static/media/logo.e148933d.png": "/portfolio-alexmo/static/media/logo.e148933d.png",
+    "static/media/mern-blog.772a961f.png": "/portfolio-alexmo/static/media/mern-blog.772a961f.png",
+    "static/media/netflix.5a78c4b9.png": "/portfolio-alexmo/static/media/netflix.5a78c4b9.png",
+    "static/media/task-manager.7cdcc29e.png": "/portfolio-alexmo/static/media/task-manager.7cdcc29e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cfa2f113.js",
+    "static/css/2.e2e54199.chunk.css",
+    "static/js/2.90b73a57.chunk.js",
+    "static/css/main.66339e97.chunk.css",
+    "static/js/main.96563aa3.chunk.js"
+  ]
+}
