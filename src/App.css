@@ -76,7 +76,7 @@ nav ul li {
   background: url(ReactWebsite_background.jpeg) no-repeat;
   background-size: cover;
   background-position: center ;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -131,7 +131,6 @@ nav ul li {
   background-color: var(--primary-red);
   transition: .2s ease-out;
   cursor: pointer;
-
 }
 
 /******* HEADER MAIN OFFER BUTTON *******/
@@ -358,7 +357,7 @@ nav ul li {
 }
 
 .portfolio-image-box:hover .overflow {
-  opacity: 60%;
+  opacity: 30%;
   transition: 0.3s ease-in-out;
 }
 
@@ -375,6 +374,10 @@ nav ul li {
   opacity: 70%;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+}
+
+.popupbox-wrapper {
+  margin-top: 7rem ;
 }
 
 /******* OEVRFLOW BOX  *******/
@@ -586,4 +589,26 @@ textarea.form-control {
   .contacts p {
     padding: 0 0.4rem;
   }
+}
+
+/************************ FOOTER  ************************/
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a{
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-emphasis: none;
+  color: var(--primary-blue);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
 }
