@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
-              <p>city Mocow Main st 2020 office #223</p>
+              <a>Alex Mo</a>
             </div>
             <div className="d-flex">
               <a href="tel:65028155">65028155</a>
@@ -69,7 +69,8 @@ const Footer = () => {
               </RedditShareButton>
               <LinkedinShareButton
                 url={"www.youtube.com"}
-                qu ote={"FrontEnd Developer"}
+                qu
+                ote={"FrontEnd Developer"}
                 hashtag="#javascript"
               >
                 <LinkedinIcon className="mx-3" size={36} />

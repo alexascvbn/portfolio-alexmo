@@ -23,8 +23,6 @@ const Portfolio = () => {
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
           velit veritatis consequuntur voluptate sapiente optio quaerat fuga.
-          Vel illum quis expedita minus, magni eius, aliquid perspiciatis
-          maiores ea porro cumque?
         </p>
         <b>GitHub:</b>
         <a
@@ -59,10 +57,8 @@ const Portfolio = () => {
           alt="City Guide Project..."
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
           velit veritatis consequuntur voluptate sapiente optio quaerat fuga.
-          Vel illum quis expedita minus, magni eius, aliquid perspiciatis
-          maiores ea porro cumque?
         </p>
         <b>GitHub:</b>
         <a

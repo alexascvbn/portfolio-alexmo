@@ -4,7 +4,12 @@ import { useForm } from "react-hook-form";
 
 const Contacts = () => {
   const [successMessage, setSuccessMessage] = useState("");
-  const { register, handleSubmit, errors, watch } = useForm();
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    watch,
+  } = useForm();
 
   const serviceID = "service_ID";
   const templateID = "template_ID";
@@ -58,7 +63,6 @@ const Contacts = () => {
                   type="text"
                   className="form-control"
                   placeholder="Name"
-                  //   name="name"
                   {...register("name", {
                     required: "Please enter your name",
                     maxLength: {
@@ -70,9 +74,9 @@ const Contacts = () => {
                 />
                 <div className="line"></div>
               </div>
-              {/* <div className="span error-message"> */}
-              {/* {errors.name && errors.name.message} */}
-              {/* </div> */}
+              <div className="span error-message">
+                {errors.name && errors.name.message}
+              </div>
               {/* PHONE INPUT */}
               <div className="text-center">
                 <input
@@ -84,6 +88,9 @@ const Contacts = () => {
                   })}
                 />
                 <div className="line"></div>
+                <div className="span error-message">
+                  {errors.phone && errors.phone.message}
+                </div>
               </div>
               {/* EMAIL INPUT */}
               <div className="text-center">
@@ -101,6 +108,9 @@ const Contacts = () => {
                   })}
                 />
                 <div className="line"></div>
+                <div className="span error-message">
+                  {errors.email && errors.email.message}
+                </div>
               </div>
               {/* SUBJECT INPUT */}
               <div className="text-center">
@@ -114,6 +124,9 @@ const Contacts = () => {
                   })}
                 />
                 <div className="line"></div>
+                <div className="span error-message">
+                  {errors.subject && errors.subject.message}
+                </div>
               </div>
             </div>
             <div className="col-md-6 col-xs-12">
@@ -128,6 +141,9 @@ const Contacts = () => {
                   })}
                 />
                 <div className="line"></div>
+                <div className="span error-message">
+                  {errors.desciption && errors.desciption.message}
+                </div>
               </div>
 
               <button className="btn-main-offer contact-btn" type="submit">

@@ -3,7 +3,7 @@ import author from "../LinkIn_Photo.jpg";
 
 const AboutMe = () => {
   return (
-    <div id="about" className="container py-5">
+    <div id="about" className="container py-5 about-wrapper">
       <div className="row">
         <div className="col-lg-6 col-xm-12">
           <div className="photo-wrap mb-3">
@@ -31,7 +31,7 @@ const AboutMe = () => {
             course from mosh and following him step by step to make the real
             react native app project, Finally, I am looking the new jobs and
             further to contribute my coding skill and experience. Thank you for
-            your listening.
+            your watching.
           </p>
         </div>
       </div>

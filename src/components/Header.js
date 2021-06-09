@@ -1,13 +1,16 @@
 import React from "react";
 import { Link } from "react-scroll";
-// import Typed from "react-typed";
 import Typed from "react-typed";
 
 const Header = () => {
   return (
     <div id="home" className="header-wraper">
       <div className="main-info">
-        <h1>Web development and websites promotions</h1>
+        <div className="header-intro">
+          Hello, I'm <span className="header-nickname"> Alex Mo </span>.
+          <br />
+          I'm Frontend Developer
+        </div>
         <Typed
           className="typed-text"
           strings={[
@@ -22,12 +25,13 @@ const Header = () => {
         />
         <Link
           smooth={true}
-          to="contacts"
+          duration={100}
+          to="about"
           offset={-110}
           href="#"
           className="btn-main-offer"
         >
-          contact me
+          View me more...
         </Link>
       </div>
     </div>
